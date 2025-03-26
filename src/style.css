@@ -1,5 +1,64 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
+    background: green;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+}
+
+.card {
+    width: 500px;
+    height: 540px;
     background: white;
+    margin-top: 20px;
+    padding: 10px;
+
+}
+
+.icon-left{
+    color: rgb(175, 45, 45);
+    font-size: 80px;
+    
+}
+
+.icon-right{
+
+    color: rgb(175, 45, 45);
+    font-size: 80px;
+    
+}
+
+.card-head{
+    display:inline-block;
+    vertical-align:top;
+    height: 20vh;
+
+
+}
+
+.body-card{
+    vertical-align:top;
+    display: flex;
+    height: 450vh;
+    justify-content: center;
+
+}
+
+.footer-card{
+    display:flex;
+    vertical-align:top;
+    height: 20vh;
+    justify-content: flex-end ;
+
+}
+
+
+h1 {
+    font-size: 100px;
+    display: flex;
+    justify-content: center;    
+    position: relative;
+ 
 }
